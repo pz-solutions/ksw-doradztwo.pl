@@ -3,13 +3,12 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import uslugi_adm from '../assets/images/uslugi_adm.jpg'
+import uslugi_handl from '../assets/images/uslugi_handl.jpg'
+import uslugi_kadr from '../assets/images/uslugi_kadr.jpg'
+import uslugi_kpir from '../assets/images/uslugi_kpir.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -19,7 +18,10 @@ class HomeIndex extends React.Component {
           title="KSW Doradztwo"
           meta={[
             { name: 'description', content: 'Strona Główna' },
-            { name: 'keywords', content: 'doradztwo, księgowość, kadry, rozliczenia, faktury' },
+            {
+              name: 'keywords',
+              content: 'doradztwo, księgowość, kadry, rozliczenia, faktury',
+            },
           ]}
         />
 
@@ -34,77 +36,77 @@ class HomeIndex extends React.Component {
               <p>
                 KSW Doradztwo jest biurem rachunkowym świadczącym usługi w
                 zakresie pełnej obsługi księgowej, finansowej i
-                kadrowo-płacowej. Usługi świadczone są na rzecz zarówno osób
-                prawnych jak i osób fizycznych.{' '}
+                kadrowo-płacowej. Wachlarz naszych klientów jest szeroki: osoby
+                fizyczne rozliczające się ryczałtem, osoby fizyczne rozliczające
+                się na podatkowej książce przychodów i rozchodów, spółki z o.o.,
+                spółki komandytowe, spółki komandytowo - akcyjne, spółki
+                należące do grup kapitałowych.
               </p>
               <p>
-                W ramach umowy oferujemy pełen kontakt z Urzędem Skarbowym i
-                ZUS. Nasi klienci mają możliwość na bieżąco wglądu w zapisy
-                księgowe swojej działalności. Biuro współpracuje z kancelarią
-                prawną.
+                W ramach umowy oferujemy pełen kontakt z Urzędem Skarbowym, ZUS
+                i GUS również podczas kontroli. Nasi klienci mają możliwość na
+                bieżąco wglądu w swoje zapisy księgowe. Biuro współpracuje z
+                kancelarią adwokacką i notarialną, doradcą podatkowym i biegłym
+                rewidentem.
+              </p>
+              <p>
+                Nasi klienci mogą liczyć na pełne wsparcie i doradztwo przy
+                prowadzeniu działalności gospodarczej.
               </p>
             </div>
           </section>
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${uslugi_adm})` }}>
               <header className="major">
                 <h3>Usługi administracyjne</h3>
-                <p>
-                  <ul>
-                    <li>archiwizacja dokumentów</li>
-                    <li>segregacja dokumentów</li>
-                    <li>wystawianie faktur</li>
-                    <li>
-                      sporządzanie raportów finansowych na podstawie zapisów z
-                      ksiąg rachunkowych
-                    </li>
-                    <li>obsługa płatności</li>
-                  </ul>
-                </p>
+                <ul>
+                  <li>archiwizacja dokumentów</li>
+                  <li>segregacja dokumentów</li>
+                  <li>wystawianie faktur</li>
+                  <li>
+                    sporządzanie raportów finansowych na podstawie zapisów z
+                    ksiąg rachunkowych
+                  </li>
+                  <li>obsługa płatności</li>
+                </ul>
               </header>
-              <Link to="/landing" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
+            <article style={{ backgroundImage: `url(${uslugi_kpir})` }}>
               <header className="major">
-                <h3>Prowadzenie podatkowej księgi przychodów i rozchodów</h3>
-                <p>
-                  <ul>
-                    <li>zapisy w księdze</li>
-                    <li>rozliczenie deklaracji podatkowych VAT, PIT</li>
-                  </ul>
-                </p>
+                <h3>Prowadzenie podatkowej KPiR i ewidencji ryczałtu</h3>
+                <ul>
+                  <li>zapisy w księdze</li>
+                  <li>rozliczenie deklaracji podatkowych VAT, PIT</li>
+                  <li>ewidencja rejestrów VAT</li>
+                  <li>ewidencja środków trwałych</li>
+                  <li>obsługa plików JPK</li>
+                </ul>
               </header>
-              <Link to="/landing" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
+            <article style={{ backgroundImage: `url(${uslugi_handl})` }}>
               <header className="major">
                 <h3>Prowadzenie ksiąg handlowych</h3>
-                <p>
-                  <ul>
-                    <li>ewidencja rejestrów VAT</li>
-                    <li>ewidencja środków trwałych</li>
-                    <li>zapisy w księgach</li>
-                    <li>prowadzenie rozrachunków</li>
-                    <li>rozliczenie deklaracji VAT, CIT, PIT</li>
-                  </ul>
-                </p>
+                <ul>
+                  <li>ewidencja rejestrów VAT</li>
+                  <li>ewidencja środków trwałych</li>
+                  <li>zapisy w księgach</li>
+                  <li>prowadzenie rozrachunków</li>
+                  <li>rozliczenie deklaracji VAT, CIT, PIT</li>
+                  <li>obsługa plików JPK</li>
+                </ul>
               </header>
-              <Link to="/landing" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
+            <article style={{ backgroundImage: `url(${uslugi_kadr})` }}>
               <header className="major">
                 <h3>Obsługa kadrowo-płacowa</h3>
-                <p>
-                  <ul>
-                    <li>naliczanie wynagrodzeń</li>
-                    <li>rozliczanie umów cywilno-prawnych</li>
-                    <li>prowadzenie kadr i kartotek pracowniczych</li>
-                    <li>rozliczenie deklaracji ZUS</li>
-                    <li>rozliczenie deklaracji PIT, IFT</li>
-                  </ul>
-                </p>
+                <ul>
+                  <li>naliczanie wynagrodzeń</li>
+                  <li>rozliczanie umów cywilno-prawnych</li>
+                  <li>prowadzenie kadr i kartotek pracowniczych</li>
+                  <li>rozliczenie deklaracji ZUS</li>
+                  <li>rozliczenie deklaracji PIT, IFT</li>
+                </ul>
               </header>
-              <Link to="/landing" className="link primary" />
             </article>
           </section>
           <section id="three">
@@ -116,9 +118,29 @@ class HomeIndex extends React.Component {
                 Cennik uzależniony jest od rodzaju prowadzonej działalności,
                 ilości dokumentów i liczby zatrudnionych pracowników. W celu
                 ustalenia ceny usługi proszę o wypełnienie formularza
-                kontaktowego. Proszę o podanie na formularzu przybliżonej liczby
-                dokumentów i liczby zatrudnionych pracaowników.
+                kontaktowego. Proszę o podanie na formularzu formy prowadzonej
+                działalności, przybliżonej liczby dokumentów i liczby
+                zatrudnionych pracowników lub skontaktować się bezpośrednio z
+                biurem.
               </p>
+            </div>
+          </section>
+          <Contact />
+          <section>
+            <div className="inner">
+              <p>
+                Niniejszym informujemy, iż skorzystanie z wyżej wskazanych
+                środków komunikacji i udostępnienie za ich pośrednictwem danych
+                osobowych oznacza wyrażenie zgody na przetwarzanie danych
+                osobowych w celu udzielenia odpowiedzi na pytanie.
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link to="/privacy" className="button next">
+                    Więcej
+                  </Link>
+                </li>
+              </ul>
             </div>
           </section>
         </div>
