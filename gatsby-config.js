@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "KSW Doradztwo",
+    author: "Piotr Żabówka",
+    description: "Strona główna KSW Doradztwo"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
