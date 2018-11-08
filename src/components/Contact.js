@@ -29,7 +29,7 @@ const Contact = (props) => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
-                        <h3>Kontakt</h3>
+                        <h3>Katarzyna Woźniak</h3>
                         <span>00-126 Warszawa,<br />
                         ul. Ceramiczna 29A/30<br/>
                         +48 601 433 705<br/>
