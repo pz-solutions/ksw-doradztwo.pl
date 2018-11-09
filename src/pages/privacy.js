@@ -2,13 +2,11 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
-
 const Generic = props => (
   <Layout>
     <Helmet>
-      <title>Generic - Forty by HTML5 UP</title>
-      <meta name="description" content="Generic Page" />
+      <title>Polityka Prywatności - KSW Doradztwo</title>
+      <meta name="description" content="Polityka Prywatności - KSW Doradztwo" />
     </Helmet>
 
     <div id="main" className="alt">
@@ -18,9 +16,6 @@ const Generic = props => (
             <h1>POLITYKA PRYWATNOŚCI</h1>
             „Katarzyna Woźniak KSW Doradztwo”
           </header>
-          <span className="image main">
-            <img src={pic11} alt="" />
-          </span>
           <ol>
             <li>
               <h4>O FIRMIE</h4>
@@ -67,7 +62,7 @@ const Generic = props => (
                       <li>
                         <strong>Klienci indywidualni, konsumenci</strong>
                         <br />
-                        Jeżeli poprosiliśmy Państwa o zgodę na przetwarzanie
+                        Jeżeli poprosiliśmy Państwo o zgodę na przetwarzanie
                         danych osobowych dla celów marketingu bezpośredniego lub
                         na przesyłanie informacji handlowych drogą elektroniczną
                         – Mogą Państwo wycofać zgodę w każdym czasie przez
