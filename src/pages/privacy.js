@@ -1,9 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import gdpr from '../assets/images/gdpr.jpg'
 
 const Generic = props => (
-  <Layout>
+  <Layout >
     <Helmet>
       <title>Polityka Prywatności - KSW Doradztwo</title>
       <meta name="description" content="Polityka Prywatności - KSW Doradztwo" />
@@ -16,6 +17,9 @@ const Generic = props => (
             <h1>POLITYKA PRYWATNOŚCI</h1>
             „Katarzyna Woźniak KSW Doradztwo”
           </header>
+          <span className="image main">
+            <img src={gdpr} alt="" />
+          </span>
           <ol>
             <li>
               <h4>O FIRMIE</h4>
