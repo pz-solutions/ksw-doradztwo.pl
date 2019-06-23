@@ -41,9 +41,9 @@ const Contact = props => (
             <span className="icon alt fa-envelope" />
             <h3>Katarzyna Woźniak</h3>
             <span>
-              00-834 Warszawa,
+              00-126 Warszawa,
               <br />
-              ul. Pańska 73 lok. 500
+              ul. Ceramiczna 29A/30
               <br />
               +48 601 433 705
               <br />
@@ -58,9 +58,10 @@ const Contact = props => (
             <span className="icon alt fa-building" />
             <h3>Filia</h3>
             <span>
-              00-342 Warszawa,
+              00-834 Warszawa,
               <br />
-              ul. Topiel 21 lok 5<br />
+              ul. Pańska 73 lok. 500
+              <br />
               +48 (22) 110 76 81
               <br />
               +48 663 631 997
