@@ -60,7 +60,7 @@ const Contact = props => (
             <span>
               00-834 Warszawa,
               <br />
-              ul. Pańska 73 lok. 500
+              ul. Pańska 73 lok 500
               <br />
               +48 (22) 110 76 81
               <br />
