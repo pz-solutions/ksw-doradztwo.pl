@@ -38,25 +38,8 @@ const Contact = props => (
       <section className="split">
         <section>
           <div className="contact-method">
-            <span className="icon alt fa-envelope" />
-            <h3>Katarzyna Woźniak</h3>
-            <span>
-              00-126 Warszawa,
-              <br />
-              ul. Ceramiczna 29A/30
-              <br />
-              +48 601 433 705
-              <br />
-              <a href="mailto:biuro@ksw-doradztwo.pl">
-                k.wozniak@ksw-doradztwo.pl
-              </a>
-            </span>
-          </div>
-        </section>
-        <section>
-          <div className="contact-method">
             <span className="icon alt fa-building" />
-            <h3>Filia</h3>
+            <h3>KSW Doradztwo Sp. z o. o.</h3>
             <span>
               00-834 Warszawa,
               <br />
@@ -74,9 +57,11 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon alt fa-dollar" />
             <span>
-              NIP: 524-224-66-70
+              NIP: 527-296-96-57
               <br />
-              REGON: 141525963
+              REGON: 389866608
+              <br />
+              KRS: 0000919485
               <br />
               Licencja nr: 33785/2009
             </span>
