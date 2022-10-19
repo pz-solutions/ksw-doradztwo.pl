@@ -45,7 +45,7 @@ const Contact = props => (
               <br />
               ul. Słomińskieo 15 lok 14
               <br />
-              Wejście od basenów na Inflanckiej
+              <sup>Wejście od basenów na Inflanckiej</sup>
               <br />
               +48 (22) 110 76 81
               <br />
