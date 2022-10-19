@@ -41,9 +41,11 @@ const Contact = props => (
             <span className="icon alt fa-building" />
             <h3>KSW Doradztwo Sp. z o. o.</h3>
             <span>
-              00-834 Warszawa,
+              00-195 Warszawa,
               <br />
-              ul. Pańska 73 lok 500
+              ul. Słomińskieo 15 lok 14
+              <br />
+              Wejście od basenów na Inflanckiej
               <br />
               +48 (22) 110 76 81
               <br />
