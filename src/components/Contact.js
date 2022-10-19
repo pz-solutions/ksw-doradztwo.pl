@@ -47,6 +47,12 @@ const Contact = props => (
               <br />
               <sup>Wejście od basenów na Inflanckiej</sup>
               <br />
+              Biuro czynne: 
+              <br />
+              Pon. - Czw. od 8.00 do 16.30
+              <br />
+              Pt. od 9.00 do 15.00
+              <br />
               +48 (22) 110 76 81
               <br />
               +48 663 631 997
