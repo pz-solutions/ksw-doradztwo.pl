@@ -7,7 +7,7 @@ export default function Header() {
         <header id="header" className="alt">
             <div className="inner">
                 <Link href="/" className="logo">
-                    <a><Image src={logo} alt="KSW" layout='intrinsic' /></a>
+                    <Image src={logo} alt="KSW" layout='intrinsic' />
                 </Link>
             </div>
         </header>
