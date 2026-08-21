@@ -1,6 +1,6 @@
 # ksw-doradztwo.pl
 
-Strona internetowa biura rachunkowego KSW Doradztwo, zbudowana w Next.js z użyciem Pages Routera, Reacta, TypeScriptu i Sass.
+Strona internetowa biura rachunkowego KSW Doradztwo, zbudowana w Next.js z użyciem Pages Routera, Reacta, TypeScriptu i Tailwind CSS.
 
 ## Wymagania
 
@@ -30,7 +30,7 @@ npm run check      # wszystkie powyższe kroki
 
 - `pages/` – strony i trasy API
 - `components/` – współdzielone komponenty React
-- `styles/` – arkusze Sass
+- `styles/globals.css` – import Tailwinda, tokeny motywu i style bazowe
 - `public/` – obrazy, fonty i pozostałe zasoby statyczne
 
 Formularz kontaktowy korzysta z obsługi formularzy Netlify (`data-netlify`). Przy wdrożeniu na innej platformie wymaga własnego backendu lub zewnętrznej usługi formularzy.
