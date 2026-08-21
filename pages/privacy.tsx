@@ -12,17 +12,18 @@ const Privacy: NextPage = () => {
                 <meta name="description" content="Polityka Prywatności - KSW Doradztwo" />
             </Head>
 
-            <div id="main" className="alt">
-                <section id="one">
-                    <div className="inner">
-                        <header className="major">
-                            <h1>POLITYKA PRYWATNOŚCI</h1>
+            <main className="border-b border-line">
+                <section>
+                    <div className="mx-auto w-[calc(100%-3rem)] max-w-[65rem] pt-28 pb-12 sm:w-[calc(100%-6rem)] sm:pb-16 [&_h4]:mb-4 [&_h4]:text-[1.1em] [&_h4]:leading-[1.65] [&_h4]:font-semibold [&_ol]:mb-8 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol>li]:pl-1 [&_p]:mb-8 [&_ul]:mb-8 [&_ul]:list-disc [&_ul]:pl-4 [&_ul>li]:pl-2 [&_ul_ul]:mb-0 [&_ul_ul]:list-none">
+                        <header className="mb-8 w-fit max-w-full">
+                            <h1 className="text-[2em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[2.5em]">POLITYKA PRYWATNOŚCI</h1>
                             „Katarzyna Woźniak KSW Doradztwo”
                         </header>
-                        <span className="image main">
+                        <span className="my-6 block w-full sm:my-10">
                             <Image
                                 src={img}
                                 alt="Dokumenty i klucz symbolizujące ochronę danych osobowych"
+                                className="h-auto w-full"
                                 sizes="(max-width: 1280px) 100vw, 1280px"
                                 priority
                             />
@@ -260,7 +261,7 @@ const Privacy: NextPage = () => {
                         </ol>
                     </div>
                 </section>
-            </div>
+            </main>
         </Layout>
     )
 }

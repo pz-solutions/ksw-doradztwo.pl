@@ -13,8 +13,8 @@ export function Layout({ children }: ILayoutProps) {
             <meta name="keywords" content="doradztwo, księgowość, kadry, rozliczenia, faktury" />
             <link rel="shortcut icon" href="/images/website-icon.png" />
         </Head>
-        <div className="body">
-            <div id="wrapper">
+        <div className="min-h-screen bg-navy">
+            <div className="min-h-screen pt-11 sm:pt-[3.25rem]">
                 <Header />
                 {children}
                 <Footer />

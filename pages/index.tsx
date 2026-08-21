@@ -18,11 +18,11 @@ const Home: NextPage = () => {
 
       <Banner />
 
-      <div id="main">
-        <section id="two">
-          <div className="inner">
-            <header className="major">
-              <h2>O KSW Doradztwo</h2>
+      <main className="bg-navy-light">
+        <section>
+          <div className="mx-auto w-[calc(100%-3rem)] max-w-[65rem] py-12 sm:w-[calc(100%-6rem)] sm:py-16 [&_p]:mb-8">
+            <header className="mb-8 w-fit max-w-full">
+              <h2 className="text-[1.5em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[1.75em]">O KSW Doradztwo</h2>
             </header>
             <p>
               KSW Doradztwo jest biurem rachunkowym świadczącym usługi w
@@ -46,11 +46,13 @@ const Home: NextPage = () => {
             </p>
           </div>
         </section>
-        <section id="one" className="tiles">
-          <article style={{ backgroundImage: `url(${uslugi_adm.src})` }}>
-            <header className="major">
-              <h3>Usługi administracyjne</h3>
-              <ul>
+        <section id="uslugi" className="flex flex-wrap scroll-mt-8">
+          <article className="group relative flex h-[20em] w-full items-center overflow-hidden bg-cover bg-center px-6 py-12 xs:w-1/2 sm:h-[30vh] sm:min-h-[20em] sm:max-h-[30em] sm:px-12 sm:py-16 md:w-[40%] lg:h-[40vh] lg:min-h-[23em] lg:max-h-[40em] lg:px-16" style={{ backgroundImage: `url(${uslugi_adm.src})` }}>
+            <div className="absolute inset-0 z-10 bg-accent-blue/85 transition-opacity duration-500 group-hover:opacity-0" />
+            <div className="absolute inset-0 bg-navy/25" />
+            <header className="relative z-20 mb-8 w-fit max-w-full">
+              <h3 className="text-[1.5em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[1.75em]">Usługi administracyjne</h3>
+              <ul className="mb-8 list-disc pl-4 [&_li]:pl-2">
                 <li>archiwizacja dokumentów</li>
                 <li>segregacja dokumentów</li>
                 <li>wystawianie faktur</li>
@@ -62,10 +64,12 @@ const Home: NextPage = () => {
               </ul>
             </header>
           </article>
-          <article style={{ backgroundImage: `url(${uslugi_kpir.src})` }}>
-            <header className="major">
-              <h3>Prowadzenie podatkowej KPiR i ewidencji ryczałtu</h3>
-              <ul>
+          <article className="group relative flex h-[20em] w-full items-center overflow-hidden bg-cover bg-center px-6 py-12 xs:w-1/2 sm:h-[30vh] sm:min-h-[20em] sm:max-h-[30em] sm:px-12 sm:py-16 md:w-[60%] lg:h-[40vh] lg:min-h-[23em] lg:max-h-[40em] lg:px-16" style={{ backgroundImage: `url(${uslugi_kpir.src})` }}>
+            <div className="absolute inset-0 z-10 bg-accent-purple/85 transition-opacity duration-500 group-hover:opacity-0" />
+            <div className="absolute inset-0 bg-navy/25" />
+            <header className="relative z-20 mb-8 w-fit max-w-full">
+              <h3 className="text-[1.5em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[1.75em]">Prowadzenie podatkowej KPiR i ewidencji ryczałtu</h3>
+              <ul className="mb-8 list-disc pl-4 [&_li]:pl-2">
                 <li>zapisy w księdze</li>
                 <li>rozliczenie deklaracji podatkowych VAT, PIT</li>
                 <li>ewidencja rejestrów VAT</li>
@@ -74,10 +78,12 @@ const Home: NextPage = () => {
               </ul>
             </header>
           </article>
-          <article style={{ backgroundImage: `url(${uslugi_handl.src})` }}>
-            <header className="major">
-              <h3>Prowadzenie ksiąg handlowych</h3>
-              <ul>
+          <article className="group relative flex h-[20em] w-full items-center overflow-hidden bg-cover bg-center px-6 py-12 xs:w-1/2 sm:h-[30vh] sm:min-h-[20em] sm:max-h-[30em] sm:px-12 sm:py-16 md:w-[60%] lg:h-[40vh] lg:min-h-[23em] lg:max-h-[40em] lg:px-16" style={{ backgroundImage: `url(${uslugi_handl.src})` }}>
+            <div className="absolute inset-0 z-10 bg-accent-coral/85 transition-opacity duration-500 group-hover:opacity-0" />
+            <div className="absolute inset-0 bg-navy/25" />
+            <header className="relative z-20 mb-8 w-fit max-w-full">
+              <h3 className="text-[1.5em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[1.75em]">Prowadzenie ksiąg handlowych</h3>
+              <ul className="mb-8 list-disc pl-4 [&_li]:pl-2">
                 <li>ewidencja rejestrów VAT</li>
                 <li>ewidencja środków trwałych</li>
                 <li>zapisy w księgach</li>
@@ -87,10 +93,12 @@ const Home: NextPage = () => {
               </ul>
             </header>
           </article>
-          <article style={{ backgroundImage: `url(${uslugi_kadr.src})` }}>
-            <header className="major">
-              <h3>Obsługa kadrowo-płacowa</h3>
-              <ul>
+          <article className="group relative flex h-[20em] w-full items-center overflow-hidden bg-cover bg-center px-6 py-12 xs:w-1/2 sm:h-[30vh] sm:min-h-[20em] sm:max-h-[30em] sm:px-12 sm:py-16 md:w-[40%] lg:h-[40vh] lg:min-h-[23em] lg:max-h-[40em] lg:px-16" style={{ backgroundImage: `url(${uslugi_kadr.src})` }}>
+            <div className="absolute inset-0 z-10 bg-accent-gold/85 transition-opacity duration-500 group-hover:opacity-0" />
+            <div className="absolute inset-0 bg-navy/25" />
+            <header className="relative z-20 mb-8 w-fit max-w-full">
+              <h3 className="text-[1.5em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[1.75em]">Obsługa kadrowo-płacowa</h3>
+              <ul className="mb-8 list-disc pl-4 [&_li]:pl-2">
                 <li>naliczanie wynagrodzeń</li>
                 <li>rozliczanie umów cywilno-prawnych</li>
                 <li>prowadzenie kadr i kartotek pracowniczych</li>
@@ -100,10 +108,10 @@ const Home: NextPage = () => {
             </header>
           </article>
         </section>
-        <section id="three">
-          <div className="inner">
-            <header className="major">
-              <h2>Cennik</h2>
+        <section className="border-t border-line">
+          <div className="mx-auto w-[calc(100%-3rem)] max-w-[65rem] py-12 sm:w-[calc(100%-6rem)] sm:py-16">
+            <header className="mb-8 w-fit max-w-full">
+              <h2 className="text-[1.5em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[1.75em]">Cennik</h2>
             </header>
             <p>
               Cennik uzależniony jest od rodzaju prowadzonej działalności,
@@ -117,24 +125,23 @@ const Home: NextPage = () => {
           </div>
         </section>
         <Contact />
-        <section>
-          <div className="inner">
-            <p>
+        <section className="border-t border-line">
+          <div className="mx-auto w-[calc(100%-3rem)] max-w-[65rem] py-12 sm:w-[calc(100%-6rem)] sm:py-16">
+            <p className="mb-8">
               Niniejszym informujemy, iż skorzystanie z wyżej wskazanych
               środków komunikacji i udostępnienie za ich pośrednictwem danych
               osobowych oznacza wyrażenie zgody na przetwarzanie danych
               osobowych w celu udzielenia odpowiedzi na pytanie.
             </p>
-            <ul className="actions">
-              <li>
-                <Link href="/privacy" className="button next">
+            <div>
+                <Link href="/privacy" className="inline-flex h-[3.5em] items-center gap-8 px-7 text-[0.8em] font-semibold tracking-[0.25em] whitespace-nowrap uppercase shadow-[inset_0_0_0_2px_white] transition-colors duration-200 hover:text-highlight hover:shadow-[inset_0_0_0_2px_#9bf1ff] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-highlight">
                   Więcej
+                  <span aria-hidden="true" className="text-2xl leading-none">→</span>
                 </Link>
-              </li>
-            </ul>
+            </div>
           </div>
         </section>
-      </div>
+      </main>
     </Layout>
   )
 }
