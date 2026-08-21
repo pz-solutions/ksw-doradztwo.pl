@@ -1,11 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from "next/legacy/image"
 import Link from 'next/link'
 import Banner from '../components/Banner'
 import Contact from '../components/Contact'
 import { Layout } from '../components/Layout'
-import styles from '../styles/Home.module.css'
 import uslugi_adm from '../public/images/uslugi_adm.jpg'
 import uslugi_handl from '../public/images/uslugi_handl.jpg'
 import uslugi_kadr from '../public/images/uslugi_kadr.jpg'

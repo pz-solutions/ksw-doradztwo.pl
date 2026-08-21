@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from "next/legacy/image";
+import Image from 'next/image';
 import logo from '../public/images/logo.png';
 
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
         <header id="header" className="alt">
             <div className="inner">
                 <Link href="/" className="logo">
-                    <Image src={logo} alt="KSW" layout='intrinsic' />
+                    <Image src={logo} alt="KSW" priority />
                 </Link>
             </div>
         </header>
