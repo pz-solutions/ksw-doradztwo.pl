@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="340"
+  height="82"
+  viewBox="0 0 340 82"
+  role="img"
+  aria-labelledby="logo-title logo-description"
+>
+  <title id="logo-title">KSW Doradztwo</title>
+  <desc id="logo-description">Wektorowa wersja logo KSW Doradztwo z literami zamienionymi na krzywe dla Affinity Designer.</desc>
+
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#666666" />
+      <stop offset="0.35" stop-color="#d8d8d8" />
+      <stop offset="0.62" stop-color="#8b8b8b" />
+      <stop offset="1" stop-color="#4a4a4a" />
+    </linearGradient>
+    <linearGradient id="silver-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a" />
+      <stop offset="0.5" stop-color="#9d9d9d" />
+      <stop offset="1" stop-color="#5c5c5c" />
+    </linearGradient>
+    <linearGradient id="coin-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" />
+      <stop offset="0.55" stop-color="#f3f3f3" />
+      <stop offset="1" stop-color="#c9c9c9" />
+    </linearGradient>
+    <linearGradient id="coin-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eeeeee" />
+      <stop offset="0.4" stop-color="#b8b8b8" />
+      <stop offset="0.7" stop-color="#eeeeee" />
+      <stop offset="1" stop-color="#8b8b8b" />
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="1.4" />
+    </filter>
+  </defs>
+
+  <g id="background" inkscape:groupmode="layer" inkscape:label="Tło i obramowanie">
+    <rect y="8" width="104" height="66" fill="#000000" />
+    <rect x="2" y="10" width="102" height="62" fill="#ffffff" />
+    <rect x="104" y="8" width="236" height="66" fill="#ffffff" />
+    <rect x="104" y="10" width="234" height="62" fill="#000000" />
+  </g>
+
+  <g id="emblem" inkscape:groupmode="layer" inkscape:label="Sygnet KSW" transform="translate(7 8)">
+    <g id="coin" inkscape:label="Moneta">
+      <ellipse
+        id="coin-shadow"
+        inkscape:label="Cień monety"
+        cx="45"
+        cy="58"
+        rx="31"
+        ry="3.5"
+        fill="#555555"
+        opacity="0.25"
+        filter="url(#soft-shadow)"
+      />
+
+      <path
+        id="coin-edge"
+        inkscape:label="Grubość i rant monety"
+        d="M6 39 C6 49 23 55 45 55 C67 55 84 49 84 39 L84 47 C82 57 65 62 45 62 C25 62 8 57 6 47 Z"
+        fill="url(#coin-edge)"
+        stroke="#b0b0b0"
+        stroke-width="1"
+      />
+
+      <ellipse
+        id="coin-top-surface"
+        inkscape:label="Górna powierzchnia monety"
+        cx="45"
+        cy="39"
+        rx="39"
+        ry="14"
+        fill="url(#coin-top)"
+        stroke="url(#silver)"
+        stroke-width="1.5"
+      />
+
+      <g id="coin-rim" inkscape:label="Linie rantu" fill="none" stroke-linecap="round">
+        <path d="M6 41 C8 51 24 56 45 56 C66 56 82 51 84 41" stroke="#8d8d8d" stroke-width="1.5" />
+        <path d="M8 47 C13 56 28 60 45 60 C62 60 77 56 82 47" stroke="#eeeeee" stroke-width="1.2" />
+        <path d="M15 54 C23 59 33 61 45 61 C57 61 68 59 76 54" stroke="#777777" stroke-width="0.8" opacity="0.7" />
+      </g>
+    </g>
+
+    <g
+      id="letters-ksw"
+      inkscape:label="Litery KSW stojące na monecie"
+    >
+      <g id="letter-s" inkscape:label="Litera S — krzywe" transform="translate(30 35) scale(0.02099609375 -0.02099609375)" fill="url(#silver-dark)" aria-label="S">
+        <path d="M939 1387L939 918L902 918Q884 1053 837.5 1133Q791 1213 705 1260Q619 1307 527 1307Q423 1307 355 1243.5Q287 1180 287 1099Q287 1037 330 986Q392 911 625 786Q815 684 884.5 629.5Q954 575 991.5 501Q1029 427 1029 346Q1029 192 909.5 80.5Q790 -31 602 -31Q543 -31 491 -22Q460 -17 362.5 14.5Q265 46 239 46Q214 46 199.5 31Q185 16 178 -31L141 -31L141 434L178 434Q204 288 248 215.5Q292 143 382.5 95Q473 47 581 47Q706 47 778.5 113Q851 179 851 269Q851 319 823.5 370Q796 421 738 465Q699 495 525 592.5Q351 690 277.5 748Q204 806 166 876Q128 946 128 1030Q128 1176 240 1281.5Q352 1387 525 1387Q633 1387 754 1334Q810 1309 833 1309Q859 1309 875.5 1324.5Q892 1340 902 1387Z" />
+      </g>
+      <g id="letter-w" inkscape:label="Litera W — krzywe" transform="translate(43 45) scale(0.021484375 -0.021484375)" fill="#111111" aria-label="W">
+        <path d="M1917 1356L1917 1319Q1864 1319 1831 1300Q1798 1281 1768 1229Q1748 1194 1705 1062L1327 -31L1287 -31L978 836L671 -31L635 -31L232 1095Q187 1221 175 1244Q155 1282 120.5 1300.5Q86 1319 27 1319L27 1356L529 1356L529 1319L505 1319Q452 1319 424 1295Q396 1271 396 1237Q396 1202 440 1076L707 315L932 962L892 1076L860 1167Q839 1217 813 1255Q800 1274 781 1287Q756 1305 731 1313Q712 1319 671 1319L671 1356L1199 1356L1199 1319L1163 1319Q1107 1319 1081 1295Q1055 1271 1055 1230Q1055 1179 1100 1052L1360 315L1618 1062Q1662 1186 1662 1234Q1662 1257 1647.5 1277Q1633 1297 1611 1305Q1573 1319 1512 1319L1512 1356Z" />
+      </g>
+      <g id="letter-k" inkscape:label="Litera K — krzywe" transform="translate(13 49) scale(0.02099609375 -0.02099609375)" fill="url(#silver)" aria-label="K">
+        <path d="M612 752L1112 255Q1235 132 1322 87.5Q1409 43 1496 37L1496 0L851 0L851 37Q909 37 934.5 56.5Q960 76 960 100Q960 124 950.5 143Q941 162 888 214L420 677L420 240Q420 137 433 104Q443 79 475 61Q518 37 566 37L612 37L612 0L34 0L34 37L82 37Q166 37 204 86Q228 118 228 240L228 1116Q228 1219 215 1253Q205 1277 174 1295Q130 1319 82 1319L34 1319L34 1356L612 1356L612 1319L566 1319Q519 1319 475 1296Q444 1280 432 1248Q420 1216 420 1116L420 701Q440 720 557 828Q854 1100 916 1191Q943 1231 943 1261Q943 1284 922 1301.5Q901 1319 851 1319L820 1319L820 1356L1318 1356L1318 1319Q1274 1318 1238 1307Q1202 1296 1150 1264.5Q1098 1233 1022 1163Q1000 1143 819 958Z" />
+      </g>
+    </g>
+  </g>
+
+  <g id="wordmark" inkscape:groupmode="layer" inkscape:label="Napis DORADZTWO" transform="translate(20 8)">
+    <g
+      id="word-doradztwo"
+      inkscape:label="DORADZTWO — krzywe"
+      transform="translate(96 44) scale(0.015625 -0.015625)"
+      fill="#ffffff"
+      aria-label="DORADZTWO"
+    >
+      <title>DORADZTWO</title>
+        <path id="word-d" inkscape:label="Litera D" transform="translate(0 0)" d="M35 0L35 37L86 37Q172 37 208 92Q230 125 230 240L230 1116Q230 1243 202 1275Q163 1319 86 1319L35 1319L35 1356L587 1356Q891 1356 1049.5 1287Q1208 1218 1304.5 1057Q1401 896 1401 685Q1401 402 1229 212Q1036 0 641 0ZM422 98Q549 70 635 70Q867 70 1020 233Q1173 396 1173 675Q1173 956 1020 1118Q867 1280 627 1280Q537 1280 422 1251Z" />
+        <path id="word-o" inkscape:label="Litera O" transform="translate(1479 0)" d="M749 1387Q1013 1387 1206.5 1186.5Q1400 986 1400 686Q1400 377 1205 173Q1010 -31 733 -31Q453 -31 262.5 168Q72 367 72 683Q72 1006 292 1210Q483 1387 749 1387ZM730 1314Q548 1314 438 1179Q301 1011 301 687Q301 355 443 176Q552 40 731 40Q922 40 1046.5 189Q1171 338 1171 659Q1171 1007 1034 1178Q924 1314 730 1314Z" />
+        <path id="word-r" inkscape:label="Litera R" transform="translate(2958 0)" d="M1384 0L1022 0L563 634Q512 632 480 632Q467 632 452 632.5Q437 633 421 634L421 240Q421 112 449 81Q487 37 563 37L616 37L616 0L35 0L35 37L86 37Q172 37 209 93Q230 124 230 240L230 1116Q230 1244 202 1275Q163 1319 86 1319L35 1319L35 1356L529 1356Q745 1356 847.5 1324.5Q950 1293 1021.5 1208.5Q1093 1124 1093 1007Q1093 882 1011.5 790Q930 698 759 660L1039 271Q1135 137 1204 93Q1273 49 1384 37ZM421 697Q440 697 454 696.5Q468 696 477 696Q671 696 769.5 780Q868 864 868 994Q868 1121 788.5 1200.5Q709 1280 578 1280Q520 1280 421 1261Z" />
+        <path id="word-a" inkscape:label="Litera A" transform="translate(4324 0)" d="M937 454L412 454L320 240Q286 161 286 122Q286 91 315.5 67.5Q345 44 443 37L443 0L16 0L16 37Q101 52 126 76Q177 124 239 271L716 1387L751 1387L1223 259Q1280 123 1326.5 82.5Q1373 42 1456 37L1456 0L921 0L921 37Q1002 41 1030.5 64Q1059 87 1059 120Q1059 164 1019 259ZM909 528L679 1076L443 528Z" />
+        <path id="word-d-2" inkscape:label="Litera D" transform="translate(5803 0)" d="M35 0L35 37L86 37Q172 37 208 92Q230 125 230 240L230 1116Q230 1243 202 1275Q163 1319 86 1319L35 1319L35 1356L587 1356Q891 1356 1049.5 1287Q1208 1218 1304.5 1057Q1401 896 1401 685Q1401 402 1229 212Q1036 0 641 0ZM422 98Q549 70 635 70Q867 70 1020 233Q1173 396 1173 675Q1173 956 1020 1118Q867 1280 627 1280Q537 1280 422 1251Z" />
+        <path id="word-z" inkscape:label="Litera Z" transform="translate(7282 0)" d="M1178 1356L287 82L843 82Q971 82 1039.5 138Q1108 194 1161 365L1194 359L1130 0L26 0L26 37L896 1275L462 1275Q354 1275 305.5 1251.5Q257 1228 231.5 1183.5Q206 1139 185 1017L147 1017L175 1356Z" />
+        <path id="word-t" inkscape:label="Litera T" transform="translate(8533 0)" d="M1185 1356L1200 1038L1162 1038Q1151 1122 1132 1158Q1101 1216 1049.5 1243.5Q998 1271 914 1271L723 1271L723 235Q723 110 750 79Q788 37 867 37L914 37L914 0L339 0L339 37L387 37Q473 37 509 89Q531 121 531 235L531 1271L368 1271Q273 1271 233 1257Q181 1238 144 1184Q107 1130 100 1038L62 1038L78 1356Z" />
+        <path id="word-w" inkscape:label="Litera W" transform="translate(9784 0)" d="M1917 1356L1917 1319Q1864 1319 1831 1300Q1798 1281 1768 1229Q1748 1194 1705 1062L1327 -31L1287 -31L978 836L671 -31L635 -31L232 1095Q187 1221 175 1244Q155 1282 120.5 1300.5Q86 1319 27 1319L27 1356L529 1356L529 1319L505 1319Q452 1319 424 1295Q396 1271 396 1237Q396 1202 440 1076L707 315L932 962L892 1076L860 1167Q839 1217 813 1255Q800 1274 781 1287Q756 1305 731 1313Q712 1319 671 1319L671 1356L1199 1356L1199 1319L1163 1319Q1107 1319 1081 1295Q1055 1271 1055 1230Q1055 1179 1100 1052L1360 315L1618 1062Q1662 1186 1662 1234Q1662 1257 1647.5 1277Q1633 1297 1611 1305Q1573 1319 1512 1319L1512 1356Z" />
+        <path id="word-o-2" inkscape:label="Litera O" transform="translate(11717 0)" d="M749 1387Q1013 1387 1206.5 1186.5Q1400 986 1400 686Q1400 377 1205 173Q1010 -31 733 -31Q453 -31 262.5 168Q72 367 72 683Q72 1006 292 1210Q483 1387 749 1387ZM730 1314Q548 1314 438 1179Q301 1011 301 687Q301 355 443 176Q552 40 731 40Q922 40 1046.5 189Q1171 338 1171 659Q1171 1007 1034 1178Q924 1314 730 1314Z" />
+    </g>
+  </g>
+</svg>
