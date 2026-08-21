@@ -42,11 +42,9 @@ export default function Contact() {
                             <span className="icon alt fa-building" />
                             <h3>KSW Doradztwo Sp. z o. o.</h3>
                             <span>
-                                00-195 Warszawa,
+                                03-126 Warszawa,
                                 <br />
-                                ul. Słomińskieo 15 lok 14
-                                <br />
-                                <sup>Wejście od basenów na Inflanckiej</sup>
+                                ul. Ceramiczna 29a/30
                                 <br />
                                 +48 (22) 110 76 81
                                 <br />
