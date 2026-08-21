@@ -21,10 +21,13 @@
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
+			max-width: 100%;
 			margin-bottom: functions.size(element-margin);
 
 			> :first-child {
 				margin-bottom: 0;
+				max-width: 100%;
+				overflow-wrap: break-word;
 				width: calc(100% + 0.5em);
 
 				&:after {

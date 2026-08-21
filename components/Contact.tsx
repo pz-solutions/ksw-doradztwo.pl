@@ -16,15 +16,15 @@ export default function Contact() {
                         <input type="hidden" name="bot-field" />
                         <div className="field half first">
                             <label htmlFor="name">Imię i nazwisko</label>
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="name" id="name" autoComplete="name" required />
                         </div>
                         <div className="field half">
                             <label htmlFor="email">Email</label>
-                            <input type="text" name="email" id="email" />
+                            <input type="email" name="email" id="email" autoComplete="email" required />
                         </div>
                         <div className="field">
                             <label htmlFor="message">Wiadomość</label>
-                            <textarea name="message" id="message" rows={6} />
+                            <textarea name="message" id="message" rows={6} required />
                         </div>
                         <ul className="actions">
                             <li>

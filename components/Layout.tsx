@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 
@@ -13,7 +13,7 @@ export function Layout({ children }: ILayoutProps) {
             <meta name="keywords" content="doradztwo, księgowość, kadry, rozliczenia, faktury" />
             <link rel="shortcut icon" href="/images/website-icon.png" />
         </Head>
-        <div className={`body`}>
+        <div className="body">
             <div id="wrapper">
                 <Header />
                 {children}

@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from "next/legacy/image"
+import Image from 'next/image'
 import { Layout } from '../components/Layout'
 import img from '../public/images/gdpr.jpg'
 
 const Privacy: NextPage = () => {
     return (
-        <Layout >
+        <Layout>
             <Head>
                 <title>Polityka Prywatności - KSW Doradztwo</title>
                 <meta name="description" content="Polityka Prywatności - KSW Doradztwo" />
@@ -20,7 +20,12 @@ const Privacy: NextPage = () => {
                             „Katarzyna Woźniak KSW Doradztwo”
                         </header>
                         <span className="image main">
-                            <Image src={img} alt="hero" layout='responsive' />
+                            <Image
+                                src={img}
+                                alt="Dokumenty i klucz symbolizujące ochronę danych osobowych"
+                                sizes="(max-width: 1280px) 100vw, 1280px"
+                                priority
+                            />
                         </span>
                         <ol>
                             <li>
@@ -37,25 +42,26 @@ const Privacy: NextPage = () => {
                                     Kiedy wchodzą Państwo z nami w relację za pośrednictwem strony
                                     internetowej, możemy zbierać i przetwarzać następujące kategorie
                                     danych osobowych:
-                                    <ul>
-                                        <li>
-                                            Państwa imię i nazwisko, firmę z którą są Państwo powiązani
-                                            oraz Państwa stanowisko;
-                                        </li>
-                                        <li>
-                                            Państwa informacje kontaktowe, takie jak adres firmy, numery
-                                            telefonów i adresy email;
-                                        </li>
-                                        <li>naszą komunikację z Państwem;</li>
-                                        <li>Państwa zainteresowania naszymi usługami.</li>
-                                    </ul>
                                 </p>
+                                <ul>
+                                    <li>
+                                        Państwa imię i nazwisko, firmę z którą są Państwo powiązani
+                                        oraz Państwa stanowisko;
+                                    </li>
+                                    <li>
+                                        Państwa informacje kontaktowe, takie jak adres firmy, numery
+                                        telefonów i adresy email;
+                                    </li>
+                                    <li>naszą komunikację z Państwem;</li>
+                                    <li>Państwa zainteresowania naszymi usługami.</li>
+                                </ul>
                             </li>
                             <li>
                                 <h4>CELE I PODSTAWY PRAWNE PRZETWARZANIA DANYCH OSOBOWYCH</h4>
                                 <p>
                                     Państwa dane mogą być przetwarzane w następujących celach:
-                                    <ul>
+                                </p>
+                                <ul>
                                         <li>
                                             realizacja i zarządzanie kontaktami z firmą, z którą są
                                             Państwo powiązani;
@@ -103,11 +109,13 @@ const Privacy: NextPage = () => {
                                             zapewnienie zgodności ze wszystkimi obowiązkami prawnymi,
                                             włącznie z obowiązkiem ujawnienia danych.
                                         </li>
-                                    </ul>
+                                </ul>
+                                <p>
                                     Przetwarzamy Państwa dane osobowe w oparciu o następujące
                                     podstawy prawne, aby spełniać obowiązki prawne, które są na nas
                                     nałożone:
-                                    <ul>
+                                </p>
+                                <ul>
                                         <li>
                                             w oparciu o Państwa zgodę (klienci indywidualni, konsumenci,
                                             osoby fizyczne); Jeśli przetwarzamy Państwa dane osobowe w
@@ -134,8 +142,7 @@ const Privacy: NextPage = () => {
                                             wykonania lub na podstawie działań zmierzających do jej
                                             zawarcia.
                                         </li>
-                                    </ul>
-                                </p>
+                                </ul>
                             </li>
                             <li>
                                 <h4>SPOSOBY ZBIERANIA DANYCH OSOBOWYCH</h4>
@@ -258,4 +265,4 @@ const Privacy: NextPage = () => {
     )
 }
 
-export default Privacy;
+export default Privacy
