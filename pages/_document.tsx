@@ -6,7 +6,8 @@ export default function Document() {
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-                <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400..700&family=Spectral:ital,wght@0,400..600;1,400..600&display=swap" rel="stylesheet" />
+                <link rel="shortcut icon" href="/images/website-icon.png" />
                 <script
                     dangerouslySetInnerHTML={{
                         __html:
