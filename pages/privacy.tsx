@@ -1,36 +1,33 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import { Layout } from '../components/Layout'
-import img from '../public/images/gdpr.jpg'
+import SiteFooter from '../components/SiteFooter'
+import SiteHeader from '../components/SiteHeader'
+import styles from '../styles/site.module.css'
 
 const Privacy: NextPage = () => {
     return (
-        <Layout>
+        <div className={styles.page}>
             <Head>
                 <title>Polityka Prywatności - KSW Doradztwo</title>
                 <meta name="description" content="Polityka Prywatności - KSW Doradztwo" />
             </Head>
 
-            <main className="border-b border-line">
-                <section>
-                    <div className="mx-auto w-[calc(100%-3rem)] max-w-[65rem] pt-28 pb-12 sm:w-[calc(100%-6rem)] sm:pb-16 [&_h4]:mb-4 [&_h4]:text-[1.1em] [&_h4]:leading-[1.65] [&_h4]:font-semibold [&_ol]:mb-8 [&_ol]:list-decimal [&_ol]:pl-5 [&_ol>li]:pl-1 [&_p]:mb-8 [&_ul]:mb-8 [&_ul]:list-disc [&_ul]:pl-4 [&_ul>li]:pl-2 [&_ul_ul]:mb-0 [&_ul_ul]:list-none">
-                        <header className="mb-8 w-fit max-w-full">
-                            <h1 className="text-[2em] leading-[1.65] font-semibold after:mt-[0.325em] after:mb-2 after:block after:h-0.5 after:w-[calc(100%+0.5em)] after:max-w-full after:bg-white sm:text-[2.5em]">POLITYKA PRYWATNOŚCI</h1>
-                            „Katarzyna Woźniak KSW Doradztwo”
-                        </header>
-                        <span className="my-6 block w-full sm:my-10">
-                            <Image
-                                src={img}
-                                alt="Dokumenty i klucz symbolizujące ochronę danych osobowych"
-                                className="h-auto w-full"
-                                sizes="(max-width: 1280px) 100vw, 1280px"
-                                priority
-                            />
-                        </span>
-                        <ol>
+            <SiteHeader />
+
+            <main>
+                <header className={styles.privacyHero}>
+                    <div className={`${styles.container} ${styles.privacyHeroInner}`}>
+                        <span className={styles.kicker}>Ochrona danych osobowych</span>
+                        <h1 className={styles.privacyTitle}>Polityka prywatności</h1>
+                        <p className={styles.privacyLead}>„Katarzyna Woźniak KSW Doradztwo”</p>
+                    </div>
+                </header>
+
+                <section className={styles.privacySection}>
+                    <div className={`${styles.container} ${styles.privacyContent}`}>
+                        <ol className={styles.privacyList}>
                             <li>
-                                <h4>O FIRMIE</h4>
+                                <h2>O FIRMIE</h2>
                                 <p>
                                     „Katarzyna Woźniak KSW Doradztwo” jest biurem rachunkowym
                                     świadczącym usługi w zakresie pełnej obsługi księgowej,
@@ -38,7 +35,7 @@ const Privacy: NextPage = () => {
                                 </p>
                             </li>
                             <li>
-                                <h4>KATEGORIE ZBIERANYCH DANYCH OSOBOWYCH</h4>
+                                <h2>KATEGORIE ZBIERANYCH DANYCH OSOBOWYCH</h2>
                                 <p>
                                     Kiedy wchodzą Państwo z nami w relację za pośrednictwem strony
                                     internetowej, możemy zbierać i przetwarzać następujące kategorie
@@ -58,7 +55,7 @@ const Privacy: NextPage = () => {
                                 </ul>
                             </li>
                             <li>
-                                <h4>CELE I PODSTAWY PRAWNE PRZETWARZANIA DANYCH OSOBOWYCH</h4>
+                                <h2>CELE I PODSTAWY PRAWNE PRZETWARZANIA DANYCH OSOBOWYCH</h2>
                                 <p>
                                     Państwa dane mogą być przetwarzane w następujących celach:
                                 </p>
@@ -146,7 +143,7 @@ const Privacy: NextPage = () => {
                                 </ul>
                             </li>
                             <li>
-                                <h4>SPOSOBY ZBIERANIA DANYCH OSOBOWYCH</h4>
+                                <h2>SPOSOBY ZBIERANIA DANYCH OSOBOWYCH</h2>
                                 <p>
                                     Większość danych, które przetwarzamy to informacje, które
                                     przekazali Państwo nam z własnej woli. Jednakże w niektórych
@@ -158,7 +155,7 @@ const Privacy: NextPage = () => {
                                 </p>
                             </li>
                             <li>
-                                <h4>PRZEKAZYWANIE INFORMACJI</h4>
+                                <h2>PRZEKAZYWANIE INFORMACJI</h2>
                                 <p>
                                     Przetwarzamy Państwa dane osobowe lokalnie na terytorium Polski.
                                     Jednakże, wiele z naszych działań biznesowych może być również
@@ -197,7 +194,7 @@ const Privacy: NextPage = () => {
                                 </p>
                             </li>
                             <li>
-                                <h4>ŚRODKI BEZPIECZEŃSTWA I PRZECHOWYWANIE DANYCH</h4>
+                                <h2>ŚRODKI BEZPIECZEŃSTWA I PRZECHOWYWANIE DANYCH</h2>
                                 <p>
                                     Katarzyna Woźniak KSW Doradztwo zobowiązuje się właściwie
                                     chronić Państwa dane osobowe zgodnie z przyjętymi wewnętrznymi
@@ -211,7 +208,7 @@ const Privacy: NextPage = () => {
                                 </p>
                             </li>
                             <li>
-                                <h4>MIĘDZYNARODOWY TRANSFER DANYCH OSOBOWYCH</h4>
+                                <h2>MIĘDZYNARODOWY TRANSFER DANYCH OSOBOWYCH</h2>
                                 <p>
                                     Państwa dane osobowe nie będą transferowane do państw spoza
                                     Europejskiego Obszaru Gospodarczego, w których prawo może nie
@@ -219,7 +216,7 @@ const Privacy: NextPage = () => {
                                 </p>
                             </li>
                             <li>
-                                <h4>DOSTĘP I PRAWO DO WPROWADZANIA ZMIAN</h4>
+                                <h2>DOSTĘP I PRAWO DO WPROWADZANIA ZMIAN</h2>
                                 <p>
                                     W każdym czasie mają Państwa prawo dostępu do danych osobowych
                                     oraz możliwość ich aktualizacji i zmiany. Mogą Państwo
@@ -249,7 +246,7 @@ const Privacy: NextPage = () => {
                                 </p>
                             </li>
                             <li>
-                                <h4>JAK DBAMY O POLITYKĘ</h4>
+                                <h2>JAK DBAMY O POLITYKĘ</h2>
                                 <p>
                                     Poddajemy niniejszą politykę ciągłej aktualizacji i
                                     poinformujemy Państwa o zmianach poprzez opublikowanie aktualnej
@@ -262,7 +259,9 @@ const Privacy: NextPage = () => {
                     </div>
                 </section>
             </main>
-        </Layout>
+
+            <SiteFooter />
+        </div>
     )
 }
 
